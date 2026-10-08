@@ -11,7 +11,7 @@ modifier : vous faites tout cela depuis Louverdi.
 ## Installer (Claude Pro, Max, Team ou Enterprise)
 
 1. Dans Claude : **Personnaliser → Plugins → Ajouter → Ajouter une marketplace**, et collez
-   l'adresse de ce dépôt.
+   `Louverdi/claude-plugins`.
 2. Installez le plugin **Louverdi**. Activez **Synchroniser automatiquement** pour recevoir les
    mises à jour.
 3. Dans l'onglet **Connecteurs** du plugin, connectez **Louverdi** : vous vous connectez à votre
@@ -21,10 +21,10 @@ modifier : vous faites tout cela depuis Louverdi.
 **Cabinets sur Claude Team ou Enterprise.** Un propriétaire de l'organisation peut le rendre
 disponible à tous : **Paramètres de l'organisation → Plugins & skills → Ajouter**, depuis une
 marketplace privée du cabinet qui référence ce dépôt
-(`{"source": "git-subdir", "url": "<adresse de ce dépôt>.git", "path": "louverdi"}`), puis ajouter
+(`{"source": "git-subdir", "url": "https://github.com/Louverdi/claude-plugins.git", "path": "louverdi"}`), puis ajouter
 le connecteur Louverdi dans **Paramètres de l'organisation → Connecteurs**.
 
-**Claude Code.** `/plugin marketplace add <propriétaire>/<dépôt>` puis `/plugin install louverdi@louverdi`,
+**Claude Code.** `/plugin marketplace add Louverdi/claude-plugins` puis `/plugin install louverdi@louverdi`,
 et `/mcp` pour vous connecter.
 
 ## Ce que lit Claude, et qui le traite
