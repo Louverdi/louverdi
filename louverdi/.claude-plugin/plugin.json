@@ -5,8 +5,8 @@
   "description": "Vos dossiers Louverdi dans Claude : lire un dossier et ses pièces, et suivre les méthodes Louverdi, tenues à jour par notre service.",
   "author": {
     "name": "Louverdi",
-    "url": "https://market.louverdi.com"
+    "url": "https://louverdi.com/"
   },
-  "homepage": "https://market.louverdi.com",
+  "homepage": "https://louverdi.com/",
   "keywords": ["legal", "avocat", "juridique", "expert-comptable", "louverdi", "mcp"]
 }

@@ -4,7 +4,7 @@ Vos dossiers Louverdi dans votre propre Claude : lire un dossier et ses pièces,
 méthodes Louverdi — première lecture, pièces manquantes, chronologie, devis, convention
 d'honoraires. Les méthodes sont tenues à jour par notre service et arrivent sans rien réinstaller.
 
-Pour les professionnels inscrits sur [Louverdi](https://market.louverdi.com). Claude lit, en votre
+Pour les professionnels inscrits sur [Louverdi](https://louverdi.com/). Claude lit, en votre
 nom, uniquement ce que vous voyez déjà sur Louverdi. Il ne peut rien envoyer, chiffrer, signer ni
 modifier : vous faites tout cela depuis Louverdi.
 
