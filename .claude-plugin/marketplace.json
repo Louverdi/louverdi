@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "louverdi",
+  "owner": {
+    "name": "Louverdi",
+    "url": "https://market.louverdi.com"
+  },
+  "description": "Louverdi pour Claude : vos dossiers, leurs pièces et les méthodes Louverdi, dans votre propre Claude.",
+  "plugins": [
+    {
+      "name": "louverdi",
+      "source": "./louverdi",
+      "description": "Lisez vos dossiers Louverdi et leurs pièces dans Claude, et suivez les méthodes Louverdi (première lecture, pièces manquantes, chronologie, devis, convention d'honoraires).",
+      "category": "productivity",
+      "tags": ["legal", "avocat", "juridique", "comptable", "louverdi"]
+    }
+  ]
+}
