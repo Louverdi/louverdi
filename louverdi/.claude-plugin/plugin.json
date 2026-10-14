@@ -1,12 +1,19 @@
 {
   "name": "louverdi",
   "displayName": "Louverdi",
-  "version": "1.0.0",
-  "description": "Vos dossiers Louverdi dans Claude : lire un dossier et ses pièces, et suivre les méthodes Louverdi, tenues à jour par notre service.",
+  "version": "1.1.0",
+  "description": "Envoyez un dossier à Louverdi depuis Claude avec /louverdi, suivez vos dossiers ; et, pour les professionnels, lisez vos dossiers et leurs pièces avec les méthodes Louverdi, tenues à jour par notre service.",
   "author": {
     "name": "Louverdi",
     "url": "https://louverdi.com/"
   },
   "homepage": "https://louverdi.com/",
-  "keywords": ["legal", "avocat", "juridique", "expert-comptable", "louverdi", "mcp"]
+  "keywords": [
+    "legal",
+    "avocat",
+    "juridique",
+    "expert-comptable",
+    "louverdi",
+    "mcp"
+  ]
 }

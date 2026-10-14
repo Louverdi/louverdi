@@ -10,9 +10,15 @@
     {
       "name": "louverdi",
       "source": "./louverdi",
-      "description": "Lisez vos dossiers Louverdi et leurs pièces dans Claude, et suivez les méthodes Louverdi (première lecture, pièces manquantes, chronologie, devis, convention d'honoraires).",
+      "description": "Envoyez un contrat ou votre situation à Louverdi avec /louverdi et suivez vos dossiers ; professionnels : lisez vos dossiers et leurs pièces et suivez les méthodes Louverdi (première lecture, pièces manquantes, chronologie, devis, convention d'honoraires).",
       "category": "productivity",
-      "tags": ["legal", "avocat", "juridique", "comptable", "louverdi"]
+      "tags": [
+        "legal",
+        "avocat",
+        "juridique",
+        "comptable",
+        "louverdi"
+      ]
     }
   ]
 }
