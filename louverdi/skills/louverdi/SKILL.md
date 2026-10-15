@@ -20,9 +20,15 @@ Quand la personne tape `/louverdi`, joint un document ou décrit sa situation et
    - `document_names` : les noms des fichiers joints.
    - `request_id` : un identifiant aléatoire créé une fois ; réutilisez-le si vous réessayez.
    - `urgency` ou `countries` : seulement si elle l'a dit.
-3. Transmettez-lui le champ `message` de la réponse, avec son lien. Ne le reformulez pas en promesse.
+   - `files` : seulement si votre plateforme sait passer un fichier à un outil (ChatGPT). Claude ne le peut pas : laissez-le vide.
+3. Transmettez-lui le champ `message` de la réponse, avec ses liens. Ne le reformulez pas en promesse.
+4. Les originaux : la réponse contient `uploadUrl`, un lien valable 24 heures pour ce dossier seulement. Donnez-le-lui : elle y dépose les fichiers depuis son navigateur, sans se reconnecter, et l'avocat lira l'original. Plus tard, `get_upload_link` donne un nouveau lien.
 
 Pour suivre ses dossiers : `list_my_dossiers`, puis `get_dossier_status` avec la référence.
+
+Pour la conversation du dossier :
+- `read_messages` : ce que nous, notre assistant et son professionnel ont écrit (`channel: "support"` pour sa ligne privée avec nous). Résumez fidèlement, sans avis juridique ni prix de votre part.
+- `send_message` : écrire dans le dossier en son nom. Montrez-lui d'abord le texte, et n'envoyez que ce qu'elle a approuvé. Jamais pour accepter un devis, convenir d'un prix ou répondre à un consentement : cela se fait sur Louverdi.
 
 Ne répondez jamais à sa place aux questions de consentement, et n'envoyez rien qu'elle n'a pas demandé d'envoyer.
 

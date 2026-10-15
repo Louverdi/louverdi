@@ -2,7 +2,7 @@
   "mcpServers": {
     "louverdi": {
       "type": "http",
-      "url": "https://market.louverdi.com/api/v1/mcp"
+      "url": "https://mcp.louverdi.com/mcp"
     }
   }
 }
