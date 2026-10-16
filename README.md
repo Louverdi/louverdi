@@ -4,6 +4,9 @@ Vos dossiers Louverdi dans votre propre Claude : lire un dossier et ses pièces,
 méthodes Louverdi — première lecture, pièces manquantes, chronologie, devis, convention
 d'honoraires. Les méthodes sont tenues à jour par notre service et arrivent sans rien réinstaller.
 
+**Une seule commande : `/louverdi`**, suivie de ce que vous voulez — « /louverdi envoie ce
+contrat », « /louverdi où en est EDV-2026-0148 », « /louverdi chronologie EDV-2026-0148 ».
+
 **Entreprises et particuliers** : joignez un contrat ou décrivez votre situation, tapez
 `/louverdi`, et le dossier nous arrive. Si vous avez enregistré vos réponses de consentement sur
 Louverdi, il part directement ; sinon votre IA prépare un brouillon que vous terminez sur Louverdi.
@@ -18,8 +21,9 @@ modifier : vous faites tout cela depuis Louverdi.
 
 0. Sur Louverdi, ouvrez votre profil, rubrique « Votre IA », et cliquez sur **Activer l'accès IA**.
    Sans cela, la connexion est refusée. Vous pouvez le couper au même endroit, à tout moment.
-1. Dans Claude : **Personnaliser → Plugins → Ajouter → Ajouter une marketplace**, et collez
-   `Louverdi/claude-plugins`.
+1. Dans Claude : **Personnaliser → Plugins → Ajouter → Ajouter une marketplace**, choisissez
+   **Ajouter depuis un dépôt** (pas « Parcourir les sources Anthropic » : Louverdi n'est pas dans
+   cette liste), et collez `Louverdi/claude-plugins`.
 2. Installez le plugin **Louverdi**. Activez **Synchroniser automatiquement** pour recevoir les
    mises à jour.
 3. Dans l'onglet **Connecteurs** du plugin, connectez **Louverdi** : vous vous connectez à votre
